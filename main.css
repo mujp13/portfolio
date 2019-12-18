@@ -14,23 +14,31 @@ section {
 }
 
 .banner {
-  
+  background-image: url("images/laptop_keyboard.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .hone-top {
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 300%;
-  color: black;
+  font-size: 150%;
+  color: white;
   margin-top: 100px;
 }
 
 .hone-mid {
   font-family: 'Domine', serif;
+  margin: 6%;
 }
 
 .content {
   font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: 5%;
 }
+
 
 .about,
 .skills,
@@ -47,6 +55,63 @@ section {
 
 .projects {
   background-color: #90F5BC;
+}
+
+/* Skill icons */
+
+.icons {
+  /* make all icons positioned neatly */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.max-small {
+  /* make all icons same dimensions*/
+  width: auto; height: auto;
+  max-width: 100px;
+  max-height: 100px;
+  padding: 3%;
+  margin-bottom: 3%;
+}
+
+
+
+/* Projects section */
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quiz-app {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  padding: 6%;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 125%;
+}
+
+
+/* Contact section */
+
+.contact-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+.email {
+  text-align: center;
 }
 
 /* NAVBAR */
@@ -137,3 +202,7 @@ section {
 }
 
 /* End of NAVBAR */
+
+
+@media only screen and (max-width: 1000px) {
+}
