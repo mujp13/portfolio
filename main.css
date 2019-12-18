@@ -4,18 +4,23 @@
   margin: 0;
 }
 
-.banner {
-  background: url(images/laptop_keyboard.jpg) others;
-}
-
 main {
   text-align: center;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+}
+
+.banner {
+  
 }
 
 .hone-top {
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 300%;
-  color: white;
+  color: black;
   margin-top: 100px;
 }
 
@@ -34,6 +39,7 @@ main {
   min-height: 200px;
   padding: 6% 0;
 }
+
 
 .skills {
   background-color: #95E8E8;
