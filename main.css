@@ -69,7 +69,7 @@ section {
 
 
 .max-small {
-  /* make all icons same dimensions*/
+  /* make all icons same sizes*/
   width: auto; height: auto;
   max-width: 100px;
   max-height: 100px;
