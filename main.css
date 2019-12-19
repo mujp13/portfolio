@@ -64,7 +64,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
@@ -73,7 +73,7 @@ section {
   width: auto; height: auto;
   max-width: 100px;
   max-height: 100px;
-  padding: 3%;
+  
   margin-bottom: 3%;
 }
 
@@ -199,10 +199,32 @@ section {
   .nav-links:hover {
     color: rgba(255, 255, 255, 1);
   }
+
+  .aboutme {
+    display: flex;
+    align-items: center;
+    float:left;
+    height: 250px;
+  }
+  
+  .great-dev {
+    text-align: left;
+  }
+
+  .about,
+  .skills,
+  .projects,
+  .contacts {
+    padding: 6% 0;
+    margin: 0;
+  }
+
+  .hone-top {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 350%;
+    color: white;
+    margin-top: 100px;
+  }
 }
 
 /* End of NAVBAR */
-
-
-@media only screen and (max-width: 1000px) {
-}
